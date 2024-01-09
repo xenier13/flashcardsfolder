@@ -216,6 +216,7 @@
     <span id="mistakesLength"></span>
 </div>
 <div id="buttons">
+    <button class="button tableButton" id="A1 Vocab" onclick="animateButton(this)">A1 Vocab</button>
     <button class="button tableButton" id="Simple Verbs" onclick="animateButton(this)">Simple Verbs</button>
     <button class="button tableButton" id="Substantivfraser" onclick="animateButton(this)">Substantivfraser</button>
     <button class="button tableButton" id="B2Exam Vocab" onclick="animateButton(this)">B2Exam Vocab</button>
@@ -451,7 +452,7 @@
     }
 
     document.getElementById("flashcard-title").innerText = "Simple Verbs";
-    loadDeck("simple_verbs");
+    loadDeck("a1_vocab");
     disableReviewButton();
     hideErrorMessage();
 </script>
