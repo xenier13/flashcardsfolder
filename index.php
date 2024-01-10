@@ -215,18 +215,6 @@
     <button class="button" id="reviewButton" onclick="animateButton(this)">Review</button>
     <span id="mistakesLength"></span>
 </div>
-<div id="buttons">
-    <button class="button tableButton" id="A1 Vocab" onclick="animateButton(this)">A1 Vocab</button>
-    <button class="button tableButton" id="Simple Verbs" onclick="animateButton(this)">Simple Verbs</button>
-    <button class="button tableButton" id="Substantivfraser" onclick="animateButton(this)">Substantivfraser</button>
-    <button class="button tableButton" id="B2Exam Vocab" onclick="animateButton(this)">B2Exam Vocab</button>
-    <button class="button tableButton" id="Basic Verbs" onclick="animateButton(this)">Basic Verbs</button>
-    <button class="button tableButton" id="Extra Verbs" onclick="animateButton(this)">Extra Verbs</button>
-    <button class="button tableButton" id="Irregular Nouns" onclick="animateButton(this)">Irregular Nouns</button>
-    <button class="button tableButton" id="Irregular Verbs" onclick="animateButton(this)">Irregular Verbs</button>
-    <button class="button tableButton" id="Learning Verbs" onclick="animateButton(this)">Learning Verbs</button>
-    <button class="button tableButton" id="Prepositions" onclick="animateButton(this)">Prepositions</button>
-</div>
 
 <div id="additionalFields">
     <input type="number" id="numberInput" placeholder="How many words?">
@@ -239,6 +227,19 @@
 
 <div id="buttons">
     <button class="button" id="animationToggle" onclick="toggleAnimation()">Toggle Animation</button>
+</div>
+
+<div id="buttons">
+    <button class="button tableButton" id="A1 Vocab" onclick="animateButton(this)">A1 Vocab</button>
+    <button class="button tableButton" id="Simple Verbs" onclick="animateButton(this)">Simple Verbs</button>
+    <button class="button tableButton" id="Substantivfraser" onclick="animateButton(this)">Substantivfraser</button>
+    <button class="button tableButton" id="B2Exam Vocab" onclick="animateButton(this)">B2Exam Vocab</button>
+    <button class="button tableButton" id="Basic Verbs" onclick="animateButton(this)">Basic Verbs</button>
+    <button class="button tableButton" id="Extra Verbs" onclick="animateButton(this)">Extra Verbs</button>
+    <button class="button tableButton" id="Irregular Nouns" onclick="animateButton(this)">Irregular Nouns</button>
+    <button class="button tableButton" id="Irregular Verbs" onclick="animateButton(this)">Irregular Verbs</button>
+    <button class="button tableButton" id="Learning Verbs" onclick="animateButton(this)">Learning Verbs</button>
+    <button class="button tableButton" id="Prepositions" onclick="animateButton(this)">Prepositions</button>
 </div>
 
 <script defer>
